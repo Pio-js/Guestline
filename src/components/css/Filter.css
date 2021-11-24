@@ -1,0 +1,45 @@
+#filter-container {
+    position: absolute;
+    top: 17vh;
+    width: 50%;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    border: 2px solid gray;
+    padding: 15px;
+    box-shadow: 0 0 8px gray;
+}
+
+#stars-container {
+    min-width: 120px;
+}
+
+.stars {
+    font-size: 1.5em;
+    margin-right: 2px;
+    cursor: pointer;
+}
+
+#adult-button, #children-button {
+    display: flex;
+    font-size: 1.2em;
+    color: black;
+}
+
+.sign {
+    padding: 0 10px 0 10px;
+    cursor: pointer;
+}
+
+@media (max-width: 900px) {
+    #filter-container {
+        width: 90%;
+        top: 11vh;
+    }
+
+    #adult-button, #children-button {
+        font-size: 0.8em;
+    }
+}

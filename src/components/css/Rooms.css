@@ -1,0 +1,33 @@
+.room-card {
+    width: 100%;
+    display: flex;
+    background-color: white;
+    border-bottom: 1px solid gray;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+.room-name {
+    width: 27%;
+}
+
+.description {
+    width: 68%;
+    margin-left: 2%;
+    text-align: justify;
+}
+
+@media (max-width: 900px) {
+    .room-card {
+        flex-direction: column;
+    }
+
+    .room-name {
+        width: 100%;
+        text-align: center;
+    }
+    
+    .description {
+        width: 90%;
+    }
+}
